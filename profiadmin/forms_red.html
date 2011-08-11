@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dashboard | Modern Admin</title>
+<link rel="stylesheet" type="text/css" href="css/960.css" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/text.css" />
+<link rel="stylesheet" type="text/css" href="css/red.css" />
+<link type="text/css" href="css/smoothness/ui.css" rel="stylesheet" />
+<link type="text/css" href="js/wysiwyg/jquery.wysiwyg.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/wysiwyg/jquery.wysiwyg.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function() {
+		$('#wysiwyg').wysiwyg();
+	});
+    </script>    
+    <script type="text/javascript" src="js/blend/jquery.blend.js"></script>
+	<script type="text/javascript" src="js/ui.core.js"></script>
+	<script type="text/javascript" src="js/ui.sortable.js"></script>    
+    <script type="text/javascript" src="js/ui.dialog.js"></script>
+    <script type="text/javascript" src="js/effects.js"></script>
+    <!--[if IE6]>
+	<link rel="stylesheet" type="text/css" href="css/iefix.css" />
+    <![endif]-->
+    <!--[if IE 6]>
+	<link rel="stylesheet" type="text/css" href="css/iefix.css" />
+	<script src="js/pngfix.js"></script>
+    <script>
+        DD_belatedPNG.fix('#menu ul li a span span');
+    </script>    
+    <![endif]-->
+</head>
+
+<body>
+<!-- WRAPPER START -->
+<div class="container_16" id="wrapper">	
+<!-- HIDDEN COLOR CHANGER -->
+      <div style="position:relative;">
+      	<div id="colorchanger">
+        	<a href="dashboard_red.html"><span class="redtheme">Red Theme</span></a>
+            <a href="dashboard.html"><span class="bluetheme">Blue Theme</span></a>
+            <a href="dashboard_green.html"><span class="greentheme">Green Theme</span></a>
+        </div>
+      </div>
+    <!--LOGO-->
+	<div class="grid_8" id="logo">Profi Admin - Website Administration</div>
+    <div class="grid_8">
+<!-- USER TOOLS START -->      
+      <div id="user_tools"><span><a href="#" class="mail">(1)</a> Welcome <a href="#">Admin Username</a>  |  <a class="dropdown" href="#">Change Theme</a>  |  <a href="#">Logout</a></span></div>
+    </div>
+<div class="grid_16" id="header">
+<!-- MENU START -->
+<div id="menu">
+	<ul class="group" id="menu_group_main">
+		<li class="item first" id="one"><a href="dashboard.html" class="main"><span class="outer"><span class="inner dashboard">Dashboard</span></span></a></li>
+        <li class="item middle" id="two"><a href="forms.html" class="main current"><span class="outer"><span class="inner content">Content</span></span></a></li>
+        <li class="item middle" id="three"><a href="#" class="main"><span class="outer"><span class="inner reports">Reports</span></span></a></li>
+        <li class="item middle" id="four"><a href="#" class="main"><span class="outer"><span class="inner users">Users</span></span></a></li>
+		<li class="item middle" id="five"><a href="#" class="main"><span class="outer"><span class="inner media_library">Media Library</span></span></a></li>        
+		<li class="item middle" id="six"><a href="#" class="main"><span class="outer"><span class="inner event_manager">Event Manager</span></span></a></li>        
+		<li class="item middle" id="seven"><a href="#" class="main"><span class="outer"><span class="inner newsletter">Newsletter</span></span></a></li>        
+		<li class="item last" id="eight"><a href="#" class="main"><span class="outer"><span class="inner settings">Settings</span></span></a></li>        
+    </ul>
+</div>
+<!-- MENU END -->
+</div>
+<div class="grid_16">
+<!-- TABS START -->
+    <div id="tabs">
+         <div class="container">
+            <ul>
+                      <li><a href="dashboard.html"><span>Dashboard elements</span></a></li>
+                      <li><a href="#" class="current"><span>Content Editing</span></a></li>
+                      <li><a href="#"><span>Submenu Link 3</span></a></li>
+                      <li><a href="#"><span>Submenu Link 4</span></a></li>
+                      <li><a href="#"><span>Submenu Link 5</span></a></li>
+                      <li><a href="#"><span>Submenu Link 6</span></a></li>
+                      <li><a href="#" class="more"><span>More Submenus</span></a></li>            
+           </ul>
+        </div>
+    </div>
+<!-- TABS END -->    
+</div>
+<!-- HIDDEN SUBMENU START -->
+	<div class="grid_16" id="hidden_submenu">
+	  <ul class="more_menu">
+		<li><a href="#">More link 1</a></li>
+		<li><a href="#">More link 2</a></li>  
+	    <li><a href="#">More link 3</a></li>    
+        <li><a href="#">More link 4</a></li>                               
+      </ul>
+	  <ul class="more_menu">
+		<li><a href="#">More link 5</a></li>
+		<li><a href="#">More link 6</a></li>  
+	    <li><a href="#">More link 7</a></li> 
+        <li><a href="#">More link 8</a></li>                                  
+      </ul>
+	  <ul class="more_menu">
+		<li><a href="#">More link 9</a></li>
+		<li><a href="#">More link 10</a></li>  
+	    <li><a href="#">More link 11</a></li>  
+        <li><a href="#">More link 12</a></li>                                 
+      </ul>            
+  </div>
+<!-- HIDDEN SUBMENU END -->  
+
+<!-- CONTENT START -->
+    <div class="grid_16" id="content">
+   <!-- CONTENT TITLE -->
+    <div class="grid_9">
+    <h1 class="content_edit">Content Editing and Tables</h1>
+    </div>
+    <!-- CONTENT TITLE RIGHT BOX -->
+    <div class="grid_6" id="eventbox"><a href="#" class="inline_tip">Here would come a small tip of using this admin</a></div>
+    <div class="clear">
+    </div>
+<!--    TEXT CONTENT OR ANY OTHER CONTENT START     -->
+    <div class="grid_15" id="textcontent">
+    <h2>This is a h2 subheading</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan  mauris a enim aliquet at elementum diam condimentum. Donec et sem eros.  Morbi mollis accumsan pellentesque. Duis ultricies, purus in sodales  luctus, urna dolor ultrices ligula, luctus faucibus ante dolor sit amet  tortor. Fusce non purus eros, id pulvinar ligula. Quisque ullamcorper  placerat libero. Mauris pretium purus eu nibh adipiscing pretium. Nam  libero ipsum, laoreet quis convallis id, viverra id dolor. Praesent  dignissim nisl a mauris ultrices eget ultrices libero adipiscing. Fusce  eget pretium nunc. </p>
+    <p>Phasellus elit ipsum, euismod sit amet dignissim sed, varius at  velit. Praesent in tortor sem. Suspendisse potenti. Sed auctor laoreet  metus, quis luctus augue ullamcorper ut. Aenean ultricies interdum  pellentesque. Integer eget quam leo, ut vulputate purus. Suspendisse  semper commodo tellus, quis commodo ligula condimentum vel. </p>
+<form id="edit" action="" method="post">
+    	<label>Title</label>
+        <input type="text" class="smallInput wide" />
+        <!--WYSIWYG Editor is linked to the textarea with id: #wysiwyg-->
+        <label>Edit Content</label>
+        <textarea id="wysiwyg" class="smallInput wide" rows="7" cols="30"></textarea>
+        <label>Please select some option below</label>
+        <select class="smallInput">
+        	<option>This is one option</option>
+        	<option>This is second option</option>
+        	<option>This is third option</option>            
+        </select>
+        <label>You can use any if the buttons below to submit this form (these are A tags)</label>
+       <!-- BUTTONS -->
+        <a class="button"><span>Submit Form</span></a>
+        <a class="button_grey"><span>Submit Form</span></a>
+        <a class="button_ok"><span>Update information</span></a>
+        <a class="button_notok"><span>Delete this record</span></a>
+        <a class="button_grey_round"><span>This is a rounded button</span></a>
+    </form><br />
+
+    <div class="clear"></div><br />
+    <!--NOTIFICATION MESSAGES-->
+        <p class="info" id="success"><span class="info_inner">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span></p>
+        <p class="info" id="error"><span class="info_inner">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span></p>
+        <p class="info" id="warning"><span class="info_inner">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span></p>
+        <p class="info" id="info"><span class="info_inner">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span></p>    
+    </div>
+    <div class="clear"> </div>
+<!-- END CONTENT-->    
+  </div>
+<div class="clear"> </div>
+
+		<!-- This contains the hidden content for inline calls -->
+		<div class='hidden'>
+			<div id="inline_example1" title="This is a modal box" style='padding:10px; background:#fff;'>
+			<p><strong>This content comes from a hidden element on this page.</strong></p>
+            			
+			<p><strong>Try testing yourself!</strong></p>
+            <p>You can call as many dialogs you want with jQuery UI.</p>
+			
+			</div>
+		</div>
+        <!--Second hidden element called from the tip message right of the title-->
+        <div class='hidden'>
+			<div id='inline_example2' title="This is a modal" style='padding:10px; background:#fff;'>
+			<p><strong>This content comes from the second hidden element on this page.</strong></p>
+			</div>
+		</div>
+</div>
+<!-- WRAPPER END -->
+<!-- FOOTER START -->
+<div class="container_16" id="footer">
+	Website Administration by <a href="../index.htm">WebGurus
+</a></div>
+<!-- FOOTER END -->
+</body>
+</html>
