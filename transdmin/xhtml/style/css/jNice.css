@@ -1,0 +1,185 @@
+/* -------------
+ * Buttons
+ * ------------- */
+
+button {
+	margin: 0px;
+	padding: 0px 0px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	height: 29px;
+	display: block;
+	float: left;
+	overflow: visible;
+}
+
+*:first-child+html button[type]{width: 1;} /* IE7 */
+
+button span {
+	background: transparent url(../img/btn_left.gif) no-repeat scroll right top;
+	display: block;
+	padding: 0px 10px 0px 0px; /* sliding doors padding */
+	margin: 0px;
+}
+
+button span span {
+	background: transparent url(../img/btn_right.gif) no-repeat left top;
+	color: #646464;
+	margin: 0;
+	padding: 0 0 0 10px;
+	font: 11px Arial, Helvetica, sans-serif;
+	line-height: 29px;
+	display: block;
+	text-decoration: none;
+}
+
+/* -------------
+ * Inputs
+ * ------------- */
+.jNiceInputWrapper {
+	background: transparent url(../../elements/input_left.gif) no-repeat left top;
+	height: 23px;
+	padding: 0px;
+
+}
+
+.jNiceInputInner {
+	background: transparent url(../../elements/input_right.gif) no-repeat right top;
+	padding: 2px 4px 2px 0px;
+	margin: 0px 0px 0px 4px;
+}
+
+.jNiceInputInner div {
+	height: 19px;
+}
+
+.jNiceInputInner input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 18px;
+	vertical-align: middle;
+	height: 17px;
+	color:#404040;	
+	border: 0;
+	padding: 0px;
+	margin: 0px;
+}
+
+.jNiceSafari .jNiceInputInner div {
+	position: relative;
+	overflow: hidden;
+}
+
+.jNiceSafari input {
+	background-color: none;
+	position: absolute;
+	top: -2px;
+	left: -4px;
+	height: 26px; 
+}
+
+/* -------------
+ * Radios
+ * ------------- */
+.jRadioWrapper {float: left; width: 25px;}
+.jNiceRadio {
+	background: transparent url(../img/radio.gif) no-repeat center top;
+	vertical-align: middle;
+	height: 14px;
+	width: 15px;
+	display:block;/*display: -moz-inline-block;*/
+	margin: 0 10px 0 0;
+}
+
+
+/* -------------
+ * Checkboxes
+ * ------------- */
+.jNiceCheckbox {
+	background: transparent url(../img/checkbox.gif) no-repeat center top;
+	vertical-align: middle;
+	height: 13px;
+	float: left;
+	margin: 0 10px 0 0;
+	width: 14px;
+	display:block;/*display: -moz-inline-block;*/
+}
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+.jNiceChecked { background-position: center bottom;}
+
+
+/* -------------
+ * Selects
+ * ------------- */
+.jNiceSelectWrapper {
+	width: 280px;
+	position:relative;
+	height: 26px;
+	float: left;
+	border: none !important;
+}
+
+.jNiceSelectWrapper div span {
+	float: none;
+	position: absolute;
+	width: 250px;
+	height: 26px;
+	background: url(../img/select_left.gif) no-repeat left top;
+	line-height: 18px;
+	font: 11px/11px Arial, Helvetica, sans-serif;
+	color: #646464;
+	padding: 7px 7px 0;
+	overflow: hidden;
+	border: none !important;
+}
+
+.jNiceSelectWrapper div a {
+	display: block;
+	position: absolute;
+	right: 0px;
+	width: 30px;
+	border: none;
+	height: 26px;
+	background: url(../img/select_right.gif) no-repeat center center;
+}
+
+.jNiceSelectWrapper ul {
+	position: absolute;
+	width: 250px !important;
+	top: 26px;
+	left: 0px;
+	list-style: none;
+	background-color: #FFF;
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #eaeaea;
+	max-height: 99px;
+	overflow: auto;
+	overflow-y: auto;
+	z-index:100;
+}
+
+.jNiceSelectWrapper ul li { width: auto !important; }
+
+
+.jNiceSelectWrapper ul a {
+	display: block;
+	padding: 7px 7px;
+	text-decoration: none;
+	color: #9b9b9b;
+	font: 11px/11px Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+}
+
+.jNiceSelectWrapper ul a:hover { background:#f6f6f6; }
+.jNiceSelectWrapper ul a.selected { background: #f0f7fa; color: #c66653; }
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jNiceHidden {display: none;}
